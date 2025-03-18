@@ -1,0 +1,49 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
+}
+
+.intro h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.intro span {
+    color: purple;
+}
+
+.roles {
+    color: violet;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.skills-bar{
+    margin-top: 30px;
+}
+.skills-bar p {
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+.bar {
+    width: 200px;
+    height: 8px;
+    background: gray;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.fill {
+    height: 100%;
+    background: rgb(28, 224, 28);
+}
+
+.profile-pic img {
+    width: 400px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
