@@ -1,13 +1,43 @@
 /* index.css - Global Styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   background-color: #1e1e1e;
   color: white;
+  overflow: hidden;
 }
 
 /* Centering Content */
 h1 {
   text-align: center;
   margin-top: 20px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Default for larger screens */
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .section {
+      flex-direction: column;
+      text-align: center;
+  }
 }

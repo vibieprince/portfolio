@@ -15,6 +15,10 @@ const Projects = () => {
                     <p>A barcode scanning billing system for fast and easy transactions.</p>
                 </div>
                 <div className="project-card">
+                    <h3>Razorpay Clone</h3>
+                    <p>A website's clone made to ehnace my web developing skills.</p>
+                </div>
+                <div className="project-card">
                     <h3>Portfolio Website</h3>
                     <p>A fully responsive React.js portfolio to showcase my work.</p>
                 </div>

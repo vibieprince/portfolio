@@ -5,12 +5,8 @@ const Contact = () => {
     return (
         <div className="contact-container">
             <h1>Contact Me</h1>
-            <form>
-                <input type="text" placeholder="Your Name" required />
-                <input type="email" placeholder="Your Email" required />
-                <textarea placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
+            <h2 id='phone'>📞 9560730326</h2>
+            <h2 id='mail'> 📩 works.prince1@gmail.com </h2>
         </div>
     );
 };

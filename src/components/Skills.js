@@ -13,35 +13,35 @@ const Skills = () => {
                     <div className="skill">
                         <span>React.js</span>
                         <div className="skill-bar">
-                            <div className="skill-fill" style={{ width: "80%" }}></div>
+                            <div className="skill-fill" style={{ width: "20%" }}></div>
                         </div>
                     </div>
 
                     <div className="skill">
                         <span>JavaScript</span>
                         <div className="skill-bar">
-                            <div className="skill-fill" style={{ width: "75%" }}></div>
+                            <div className="skill-fill" style={{ width: "40%" }}></div>
                         </div>
                     </div>
 
                     <div className="skill">
-                        <span>C++</span>
+                        <span>C/C++</span>
                         <div className="skill-bar">
-                            <div className="skill-fill" style={{ width: "85%" }}></div>
+                            <div className="skill-fill" style={{ width: "90%" }}></div>
                         </div>
                     </div>
 
                     <div className="skill">
                         <span>Python (NumPy, Pandas)</span>
                         <div className="skill-bar">
-                            <div className="skill-fill" style={{ width: "70%" }}></div>
+                            <div className="skill-fill" style={{ width: "85%" }}></div>
                         </div>
                     </div>
 
                     <div className="skill">
                         <span>HTML & CSS</span>
                         <div className="skill-bar">
-                            <div className="skill-fill" style={{ width: "90%" }}></div>
+                            <div className="skill-fill" style={{ width: "80%" }}></div>
                         </div>
                     </div>
                 </div>
